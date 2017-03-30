@@ -3,9 +3,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>网传小官网</title>
-<link rel="stylesheet" type="text/css" href="style.css" >
-<link rel="stylesheet" type="text/css" href="swiper-3.4.0.min.css" >
+<title>网传官网</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="swiper-3.4.0.min.css" />
 </head>
 <body>
 <div class="content">
@@ -34,8 +34,8 @@
 </div>
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class=" banner swiper-slide"><img src="banner1.jpg"></div>
-        <div class=" banner1 swiper-slide"></div>
+        <div class=" banner swiper-slide"><img src="banner1.jpg"></div>
+        <div class="swiper-slide"></div>
         <div class="swiper-slide">Slide 3</div>
     </div>
        <div class="swiper-button-prev"></div>
@@ -43,8 +43,8 @@
 </div>
 </body>
 
-<script src="assets/jquery-3.1.1.min.js"></script>
-<script src="assets/swiper.jquery.min.js"></script>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="swiper.jquery.min.js"></script>
 <script>        
   var mySlide = new Swiper ('.swiper-container', {
     loop: true,
